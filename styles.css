@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+  }
+h1{
+font-size: 75px;
+}
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .nav-links a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  main {
+    margin-top: 80px;
+  }
+  
+  .hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    min-height: 100vh;
+    text-align: center;
+    background-color: white;
+    color: green;
+  }
+  
+  .hero-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .facts-section {
+    background-color: #225533;
+    padding: 2rem;
+  }
+  
+  .facts-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .fact-card {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .explore-section {
+    position: relative;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .explore-section h2 {
+    font-size: 50px;
+  }
+  .explore-section p {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .explore-section img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  .explore-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .explore-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .explore-button {
+    background-color: green;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+
+  /* Insect Gallery Section */
+.insect-gallery-section {
+  background-color: #1b3d4d;
+  padding: 3rem 1rem;
+  color: #f0f8ff;
+  text-align: center;
+}
+
+.gallery-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.gallery-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #b0c4de;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Insect Stats Section */
+.insect-stats-section {
+  background: linear-gradient(135deg, #243B55 0%, #141E30 100%);
+  padding: 3rem 1rem;
+  color: white;
+  text-align: center;
+}
+
+.stats-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #a8dadc;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.stat-card h3 {
+  font-size: 1.8rem;
+  color: #f4a261;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+  font-size: 1rem;
+  color: #f0efeb;
+}
+
+  
+  footer {
+    background-color: black;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+  }
+  #container3D {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+  }
+  
